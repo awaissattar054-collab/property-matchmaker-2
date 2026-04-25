@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite AI Property Matchmaker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="brand">
+                <i class="fa-solid fa-building-user gold-icon"></i>
+                <h2>Elite AI</h2>
+                <p>Property Matchmaker</p>
+            </div>
+            <div class="features">
+                <div class="feature-item">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <span>UAE & UK Markets</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>High ROI Investments</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-passport"></i>
+                    <span>Golden Visa Experts</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Chat Area -->
+        <main class="chat-wrapper">
+            <header class="chat-header">
+                <div class="agent-info">
+                    <div class="agent-avatar">
+                        <img src="https://i.pravatar.cc/150?img=47" alt="Agent">
+                        <div class="status-dot"></div>
+                    </div>
+                    <div>
+                        <h3>Zara - Senior Advisor</h3>
+                        <p>Online</p>
+                    </div>
+                </div>
+            </header>
+
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will appear here -->
+            </div>
+
+            <div class="chat-input-area">
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off" required>
+                    <button type="submit" id="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
